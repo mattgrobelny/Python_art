@@ -123,14 +123,17 @@ def draw_tree(x_start, y_start, size, c1, c2, c3, angle, shrink, min_line):
 
 # Stack multiple trees on top of each other and color them with different
 # colors
-draw_tree(width / 2.0, height / 1.6, 400, 0.4, 0.5, 0.19, 130, 0.8, 15)
+draw_tree(width / 2.0, height / 1.3, 300, 0.9, 0.2, 0.1, 90, 0.8, 5)
+draw_tree(width / 2.0, height / 1.3, 300, 0, 0, 0, 90, 0.8, 6)
 
-draw_tree(width / 2.0, height / 1.6, 400, 0.12, 0.8, 0.9, 130, 0.8, 20)
+draw_tree(width / 2.0, height / 1.3, 300, 0.5, 0.5, 0.19, 90, 0.8, 15)
 
-draw_tree(width / 2.0, height / 1.6, 400, 0.82, 0.7, 0.17, 130, 0.8, 30)
+draw_tree(width / 2.0, height / 1.3, 300, 0.5, 0.8, 0.9, 90, 0.8, 20)
 
-draw_tree(width / 2.0, height / 1.6, 400, 0.12, 0.8, 0.4, 130, 0.8, 40)
+draw_tree(width / 2.0, height / 1.3, 300, 0.85, 0.7, 0.17, 90, 0.8, 30)
 
-draw_tree(width / 2.0, height / 1.6, 400, 0.1, 0.0, 0.9, 130, 0.8, 50)
+draw_tree(width / 2.0, height / 1.3, 300, 0.5, 0.8, 0.4, 90, 0.8, 40)
+
+draw_tree(width / 2.0, height / 1.3, 300, 0.5, 0.0, 0.9, 90, 0.8, 50)
 
 cr.show_page()
